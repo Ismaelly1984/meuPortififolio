@@ -1,0 +1,73 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte padrão para o corpo */
+    background-color: #F8F9FA; /* Cor de fundo */
+    color: #666666; /* Cor de texto secundário */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Nome do Cabeçalho */
+header h1 {
+    font-family: 'Poppins', sans-serif; /* Fonte para o nome */
+    font-size: 48px; /* Tamanho */
+    font-weight: 700; /* Peso */
+    color: #333; /* Cor */
+}
+
+/* Título Profissional */
+header h2 {
+    font-family: 'Raleway', sans-serif; /* Fonte para o título */
+    font-size: 24px; /* Tamanho */
+    font-weight: 500; /* Peso */
+    color: #555; /* Cor */
+}
+
+/* Seções */
+section {
+    padding: 20px;
+}
+
+/* Subtítulos */
+h3 {
+    font-family: 'Raleway', sans-serif; /* Fonte para subtítulos */
+    font-size: 20px; /* Tamanho */
+    font-weight: 600; /* Peso */
+    color: #333; /* Cor */
+}
+
+/* Links */
+a {
+    font-family: 'Roboto', sans-serif; /* Fonte para links */
+    font-size: 16px; /* Tamanho */
+    font-weight: 500; /* Peso */
+    color: #007BFF; /* Cor */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+/* Hover em Links */
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos do Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
